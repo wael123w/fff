@@ -13829,7 +13829,7 @@ const eD = MA(ZA)
         children: t
     })
 }
-  , dt = "https://your-url.com/images"
+  , dt = "https://buzeasy.net/images"
   , Ae = {
     bgTap: `${dt}/bg/main.png`,
     bgMini: `${dt}/bg/mini.png`,
@@ -15981,7 +15981,7 @@ const ND = ()=>{
 }
 ;
 var jt = {
-    VITE_API_URL: "https://your-url.com/api",
+    VITE_API_URL: "https://buzeasy.net/api",
     VITE_GA_ID: "G-BCZKLGL3D0",
     VITE_BOT_NAME: "your_tap_bot",
     BASE_URL: "/",
@@ -16446,7 +16446,7 @@ globalThis.__JOTAI_DEFAULT_STORE__ !== $a && console.warn("Detected multiple Jot
 $a)
   , BD = UD;
 var HD = {
-    VITE_API_URL: "https://your-url.com/api",
+    VITE_API_URL: "https://buzeasy.net/api",
     VITE_GA_ID: "G-BCZKLGL3D0",
     VITE_BOT_NAME: "your_tap_bot",
     BASE_URL: "/",
@@ -16650,7 +16650,7 @@ const cC = ()=>{
     mythic: 5e6
 };
 var eL = {
-    VITE_API_URL: "https://your-url.com/api",
+    VITE_API_URL: "https://buzeasy.net/api",
     VITE_GA_ID: "G-BCZKLGL3D0",
     VITE_BOT_NAME: "your_tap_bot",
     BASE_URL: "/",
@@ -16831,7 +16831,7 @@ dC.exports = fC;
 var xL = dC.exports;
 const bL = pu(xL);
 var mC = {
-    VITE_API_URL: "https://your-url.com/api",
+    VITE_API_URL: "https://buzeasy.net/api",
     VITE_GA_ID: "G-BCZKLGL3D0",
     VITE_BOT_NAME: "your_tap_bot",
     BASE_URL: "/",
@@ -16860,7 +16860,7 @@ const T1 = e=>{
 }
   , Su = e=>e ? T1(e) : T1;
 var TL = {
-    VITE_API_URL: "https://your-url.com/api",
+    VITE_API_URL: "https://buzeasy.net/api",
     VITE_GA_ID: "G-BCZKLGL3D0",
     VITE_BOT_NAME: "your_tap_bot",
     BASE_URL: "/",
@@ -20143,7 +20143,7 @@ const QM = ()=>{
         queryKey: ["token"],
         queryFn: async()=>{
             var i;
-            const {data: r} = await wt.post("https://your-url.com/api/login/", {}, {
+            const {data: r} = await wt.post("https://buzeasy.net/api/login/", {}, {
                 headers: {
                     "Telegram-Data": (i = Telegram.WebApp) == null ? void 0 : i.initData
                 }
@@ -20158,7 +20158,7 @@ const QM = ()=>{
     y.useEffect(()=>{
         if (e) {
             const r = wt.create({
-                baseURL: "https://your-url.com/api",
+                baseURL: "https://buzeasy.net/api",
                 headers: {
                     "App-Token": e
                 }
@@ -20172,7 +20172,7 @@ const QM = ()=>{
     y.useEffect(()=>{
         if (t) {
             const r = wt.create({
-                baseURL: "https://your-url.com/api",
+                baseURL: "https://buzeasy.net/api",
                 headers: {
                     "App-Token": t
                 }
