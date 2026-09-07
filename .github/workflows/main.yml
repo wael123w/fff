@@ -1,0 +1,34 @@
+name: Unzip RockyTap
+
+on:
+  workflow_dispatch:
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract RockyTap.zip
+        run: |
+          mkdir -p RockyTap
+          unzip -o RockyTap.zip -d RockyTap
+
+      - name: Commit extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add RockyTap/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Extract RockyTap.zip"
+            git push
+          fi
